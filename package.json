@@ -1,0 +1,44 @@
+{
+  "name": "CORONA",
+  "version": "2.0.0",
+  "private": true,
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "freshtall": "npm cache clean --force && rm -rf node_modules && rm -f package-lock.json && npm install"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "react": "16.6.1",
+    "react-native": "0.57.5",
+    "react-native-af-video-player": "https://github.com/agathongroup/react-native-af-video-player.git",
+    "react-native-background-fetch": "^2.5.1",
+    "react-native-circle-drawer": "^1.0.0",
+    "react-native-indicators": "^0.13.0",
+    "react-native-linear-gradient": "^2.5.4",
+    "react-native-modal": "^7.0.2",
+    "react-native-push-notification": "^3.1.2",
+    "react-native-render-html": "^3.10.0",
+    "react-native-responsive-fontsize": "^0.1.8",
+    "react-native-slider": "^0.11.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-swiper": "^1.5.14",
+    "react-native-vector-icons": "^6.4.2",
+    "react-native-video": "^4.4.1",
+    "react-navigation": "^2.18.3"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.49.2",
+    "react-test-renderer": "16.6.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
